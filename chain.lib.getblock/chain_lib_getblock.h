@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char chain_lib_getblockVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <chain_lib_getblock/PublicHeader.h>
 
-
+#import "Person.h"

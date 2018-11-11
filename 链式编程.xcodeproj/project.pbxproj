@@ -11,6 +11,8 @@
 		848447802197FAB300282C82 /* chain_lib_getblockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484477F2197FAB300282C82 /* chain_lib_getblockTests.m */; };
 		848447822197FAB300282C82 /* chain_lib_getblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 848447742197FAB200282C82 /* chain_lib_getblock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		848447922197FAE400282C82 /* chain_lib_Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 848447902197FAE400282C82 /* chain_lib_Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		848447F42197FFD200282C82 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 848447F22197FFD200282C82 /* Person.h */; };
+		848447F52197FFD200282C82 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 848447F32197FFD200282C82 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,9 @@
 		8484478E2197FAE400282C82 /* chain_lib_Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = chain_lib_Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		848447902197FAE400282C82 /* chain_lib_Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chain_lib_Masonry.h; sourceTree = "<group>"; };
 		848447912197FAE400282C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848447F12197FC5B00282C82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		848447F22197FFD200282C82 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		848447F32197FFD200282C82 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 		848447352197F98F00282C82 = {
 			isa = PBXGroup;
 			children = (
+				848447F12197FC5B00282C82 /* README.md */,
 				848447732197FAB200282C82 /* chain.lib.getblock */,
 				8484477E2197FAB300282C82 /* chain.lib.getblockTests */,
 				8484478F2197FAE400282C82 /* chain.lib.Masonry */,
@@ -84,8 +90,10 @@
 		848447732197FAB200282C82 /* chain.lib.getblock */ = {
 			isa = PBXGroup;
 			children = (
-				848447742197FAB200282C82 /* chain_lib_getblock.h */,
+				848447F22197FFD200282C82 /* Person.h */,
+				848447F32197FFD200282C82 /* Person.m */,
 				848447752197FAB200282C82 /* Info.plist */,
+				848447742197FAB200282C82 /* chain_lib_getblock.h */,
 			);
 			path = chain.lib.getblock;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848447822197FAB300282C82 /* chain_lib_getblock.h in Headers */,
+				848447F42197FFD200282C82 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848447F52197FFD200282C82 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
