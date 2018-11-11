@@ -13,6 +13,9 @@
 		848447922197FAE400282C82 /* chain_lib_Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 848447902197FAE400282C82 /* chain_lib_Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		848447F42197FFD200282C82 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 848447F22197FFD200282C82 /* Person.h */; };
 		848447F52197FFD200282C82 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 848447F32197FFD200282C82 /* Person.m */; };
+		84844825219807C500282C82 /* MasonryTController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84844823219807C500282C82 /* MasonryTController.h */; };
+		84844826219807C500282C82 /* MasonryTController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84844824219807C500282C82 /* MasonryTController.m */; };
+		AEA3981F5CDCF15D41744ADA /* Pods_chain_lib_Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC6E5AFFBE8C2CB3DCC1EC /* Pods_chain_lib_Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361684C4A63C204C726033BA /* Pods-chain.lib.Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chain.lib.Masonry.release.xcconfig"; path = "Target Support Files/Pods-chain.lib.Masonry/Pods-chain.lib.Masonry.release.xcconfig"; sourceTree = "<group>"; };
+		42AC6E5AFFBE8C2CB3DCC1EC /* Pods_chain_lib_Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chain_lib_Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A77DB128E6E09D7C5AC45B0 /* Pods-chain.lib.Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chain.lib.Masonry.debug.xcconfig"; path = "Target Support Files/Pods-chain.lib.Masonry/Pods-chain.lib.Masonry.debug.xcconfig"; sourceTree = "<group>"; };
 		848447722197FAB200282C82 /* chain_lib_getblock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = chain_lib_getblock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		848447742197FAB200282C82 /* chain_lib_getblock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chain_lib_getblock.h; sourceTree = "<group>"; };
 		848447752197FAB200282C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		848447F12197FC5B00282C82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		848447F22197FFD200282C82 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		848447F32197FFD200282C82 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		84844823219807C500282C82 /* MasonryTController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryTController.h; sourceTree = "<group>"; };
+		84844824219807C500282C82 /* MasonryTController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryTController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3981F5CDCF15D41744ADA /* Pods_chain_lib_Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C6245642D3423C5D807883A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A77DB128E6E09D7C5AC45B0 /* Pods-chain.lib.Masonry.debug.xcconfig */,
+				361684C4A63C204C726033BA /* Pods-chain.lib.Masonry.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../../../Pods;
+			sourceTree = "<group>";
+		};
 		848447352197F98F00282C82 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +93,8 @@
 				8484477E2197FAB300282C82 /* chain.lib.getblockTests */,
 				8484478F2197FAE400282C82 /* chain.lib.Masonry */,
 				848447402197F98F00282C82 /* Products */,
+				5C6245642D3423C5D807883A /* Pods */,
+				BD125E644AD96D2615A2340E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,8 +133,18 @@
 			children = (
 				848447902197FAE400282C82 /* chain_lib_Masonry.h */,
 				848447912197FAE400282C82 /* Info.plist */,
+				84844823219807C500282C82 /* MasonryTController.h */,
+				84844824219807C500282C82 /* MasonryTController.m */,
 			);
 			path = chain.lib.Masonry;
+			sourceTree = "<group>";
+		};
+		BD125E644AD96D2615A2340E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42AC6E5AFFBE8C2CB3DCC1EC /* Pods_chain_lib_Masonry.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848447922197FAE400282C82 /* chain_lib_Masonry.h in Headers */,
+				84844825219807C500282C82 /* MasonryTController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848447932197FAE400282C82 /* Build configuration list for PBXNativeTarget "chain.lib.Masonry" */;
 			buildPhases = (
+				D4BCE4A2C4DF2F6D3B467CFD /* [CP] Check Pods Manifest.lock */,
 				848447892197FAE400282C82 /* Headers */,
 				8484478A2197FAE400282C82 /* Sources */,
 				8484478B2197FAE400282C82 /* Frameworks */,
@@ -256,6 +289,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D4BCE4A2C4DF2F6D3B467CFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chain.lib.Masonry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8484476E2197FAB200282C82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84844826219807C500282C82 /* MasonryTController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +552,7 @@
 		};
 		848447942197FAE400282C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A77DB128E6E09D7C5AC45B0 /* Pods-chain.lib.Masonry.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +577,7 @@
 		};
 		848447952197FAE400282C82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361684C4A63C204C726033BA /* Pods-chain.lib.Masonry.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
