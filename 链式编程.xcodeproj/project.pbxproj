@@ -46,6 +46,8 @@
 		848447F32197FFD200282C82 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		84844823219807C500282C82 /* MasonryTController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryTController.h; sourceTree = "<group>"; };
 		84844824219807C500282C82 /* MasonryTController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryTController.m; sourceTree = "<group>"; };
+		D0A46AF448BDA27AA17C6E1D /* Pods-chain.lib.Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chain.lib.Masonry.release.xcconfig"; path = "../../../../Pods/Target Support Files/Pods-chain.lib.Masonry/Pods-chain.lib.Masonry.release.xcconfig"; sourceTree = "<group>"; };
+		FBDC7AC1C39A17953A9C0CB0 /* Pods-chain.lib.Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chain.lib.Masonry.debug.xcconfig"; path = "../../../../Pods/Target Support Files/Pods-chain.lib.Masonry/Pods-chain.lib.Masonry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 			children = (
 				5A77DB128E6E09D7C5AC45B0 /* Pods-chain.lib.Masonry.debug.xcconfig */,
 				361684C4A63C204C726033BA /* Pods-chain.lib.Masonry.release.xcconfig */,
+				FBDC7AC1C39A17953A9C0CB0 /* Pods-chain.lib.Masonry.debug.xcconfig */,
+				D0A46AF448BDA27AA17C6E1D /* Pods-chain.lib.Masonry.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../../../../Pods;
@@ -552,7 +556,7 @@
 		};
 		848447942197FAE400282C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A77DB128E6E09D7C5AC45B0 /* Pods-chain.lib.Masonry.debug.xcconfig */;
+			baseConfigurationReference = FBDC7AC1C39A17953A9C0CB0 /* Pods-chain.lib.Masonry.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -577,7 +581,7 @@
 		};
 		848447952197FAE400282C82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 361684C4A63C204C726033BA /* Pods-chain.lib.Masonry.release.xcconfig */;
+			baseConfigurationReference = D0A46AF448BDA27AA17C6E1D /* Pods-chain.lib.Masonry.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
